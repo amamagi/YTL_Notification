@@ -3,7 +3,7 @@
 - YouTube Liveの配信開始通知をトリガーにAPIコールを行います
 - [HLS Bridge](https://github.com/yukimochi/VRC_HLS)にYouTube LiveのURLを送ります
 - Discordに配信情報を送ります
-- Google Apps Scriptsに利用してサーバーレスかつ無料で運用できます
+- [Google Apps Script](https://script.google.com/home)を利用してサーバーレスかつ無料で運用できます
 - Googleアカウントが必要となります
 
 ## 使い方
@@ -16,5 +16,7 @@
 
 ## ライセンス
 Copyright (c) 2018 amausagi
+
 This software is released under the MIT License.
+
 http://opensource.org/licenses/mit-license.php
