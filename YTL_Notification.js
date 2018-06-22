@@ -14,7 +14,7 @@ function YTL_Notification() {
   if(threads.length !== 0){
     var msgs = the.getMessages();
     var msg = msgs[0];
-    var url = msg.getBody().match(/watch%3Fv%3D[\w?=%&;]+%26/);
+    var url = msg.getBody().match(/watch%3Fv%3D.+%26/);
     var subject = msg.getSubject();
     var channel = subject.match(/🔴 (.*) はライブ配信中です/);
     
