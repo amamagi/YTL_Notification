@@ -10,10 +10,10 @@ function YTL_Notification() {
   for (var n in threads) {
     threads[n].markRead();
   }
-  var the = threads[0];
   if(threads.length !== 0){
+    var the = threads[0];
     var msgs = the.getMessages();
-    var msg = msgs[0];
+    var msg = msgs[msgs.length-1];
     var url = msg.getBody().match(/watch%3Fv%3D.+%26/);
     var subject = msg.getSubject();
     var channel = subject.match(/🔴 (.*) はライブ配信中です/);
