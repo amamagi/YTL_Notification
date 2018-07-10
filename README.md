@@ -13,10 +13,3 @@
 1. [Google Apps Script](https://script.google.com/home)に新規スクリプトを追加し、YTL_notification.jsをコピペ
 1. 実行して各種権限を許可
 1. トリガーを毎分に設定
-
-## ライセンス
-Copyright (c) 2018 amausagi
-
-This software is released under the MIT License.
-
-http://opensource.org/licenses/mit-license.php
